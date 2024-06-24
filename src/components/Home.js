@@ -7,7 +7,7 @@ const Home = ({ name }) => (
                 <h1 className="display-2 py-2 fw-bold lh-1 text-white text-center bg-dark">My Portfolio</h1>
                 <div className="row">
                     <div className="col-md-3 bg-dark">
-                        <img src="./my.png" className="img-fluid rounded-circle" alt={`Portrait of ${name || 'the developer'}`} />
+                        <img src="https://drive.google.com/file/d/1qntmRFuE0ZpAydN1Z4f8m1CQMLOiJvpN/view?usp=drive_link" className="img-fluid rounded-circle" alt={`Portrait of ${name || 'the developer'}`} />
                     </div>
                     <div className="col-md-9 py-5 bg-dark">
                         <h3 className="card-title bg-dark">{name || 'Web Developer'}</h3>
